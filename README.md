@@ -24,5 +24,5 @@ my chunkSortAlgorithm.
   becomes [2, 1, 1, 1, 2, 1, 1, 1].
  This style of sorting is ideal, as the result can be broken down into repetative sub-chunks (two groups of [2,1,1,1]), which are easy to remember for a knitter. 
 
-Now that the program creates a sorted chunk array, it converts it to an element array. So, 7 elements on an array of size 17 = \n [--E-E-E-E--E-E-E-], 
+The sorted chunk array is then converted to an element array. So, 7 elements on an array of size 17 = [--E-E-E-E--E-E-E-], 
 which uses the chunk array from rule 2)
