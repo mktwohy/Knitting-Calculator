@@ -11,11 +11,11 @@ This rule is enforced by my OpSum algorithm, which finds the sizes of these chun
 
 2) Chunks are sorted; not only does the size of each chunk matter, but so does their order. If there is at least one unique chunk size, this rule is enforced by 
 my chunkSortAlgorithm. 
-  - Firstly, the rarer chunk size is assigned to parent, and the more common size to child. For instance, [1, 1, 1, 1, 1, 1, 2, 2] 
+  - First, the rarer chunk size is assigned to parent, and the more common size to child. For instance, [1, 1, 1, 1, 1, 1, 2, 2] 
   has two parents of size 2 and six children of size 1. 
-  - Secondly, each parent is dealt children in a card-dealing fashion. This ensures that the number of children per parent is as similar as possible. So, the previous array 
+  - Second, each parent is dealt children in a card-dealing fashion. This ensures that the number of children per parent is as similar as possible. So, the previous array 
   becomes [2, 1, 1, 1, 2, 1, 1, 1].
  This style of sorting is ideal, as the result can be broken down into sub-chunks (two groups of [2,1,1,1]), which are easy to remember for a knitter. 
 
-Lastly, the Java program converts the chunk array to an element array. So, 7 elements on an array of size 17 = [- - * - * - * - * - - * - * - * - ], 
+Once the Java program creates a sorted chunk array, it converts it to an element array. So, 7 elements on an array of size 17 = [- - * - * - * - * - - * - * - * - ], 
 which uses the chunk array from rule 2)
