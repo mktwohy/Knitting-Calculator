@@ -1,6 +1,8 @@
 # Knitting-Calculator
+# Purpose
 My sister is a knitter, and she came to me with a problem one day; when increasing or decreasing a large row, it is difficult to figure out the pattern for combining or adding stitches. Noticing that this can be simplified into an array problem, I spent the next few weeks writing this program.
 
+# Explanation
 For this project, one main challenge was conretely describing how elements are distributed on an array. So, an optimal array - that is, an evenly distributed array -
 is simplifed to chunks. A chunk is made of either blank space or elements, depending on what dominates the array.
 For example, if 'E' represents an element, and '-' represents an empty cell, [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
