@@ -10,7 +10,7 @@ great practice for conceptual problem solving.
 # Explanation
 For this project, one main challenge was concretely describing how elements are distributed on an array. So, I simplified an optimal array - that is, an evenly distributed array -
 as a series of chunks. A chunk is made of either blank space or elements, depending on what dominates the array.
-For example, if 'E' represents an element, and '-' represents an empty cell,  <br /> [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
+For example, if 'E' represents an element, and '-' represents an empty cell:  <br /> [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
 
 I have established two rules that result in an optimal array:
 1) Chunk sizes are as similar as possible. Or, more specifically, that the sizes of each chunk can differ at most by one.
