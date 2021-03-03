@@ -10,7 +10,7 @@ great practice for conceptual problem solving.
 # Explanation
 For this project, one main challenge was conretely describing how elements are distributed on an array. So, an optimal array - that is, an evenly distributed array -
 is simplifed to chunks. A chunk is made of either blank space or elements, depending on what dominates the array.
-For example, if 'E' represents an element, and '-' represents an empty cell, [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
+For example, if 'E' represents an element, and '-' represents an empty cell,  <br /> [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
 
 I have established two rules that result in an optimal array:
 1) Chunk sizes are as similar as possible. Or, more specifically, that the sizes of each chunk can differ at most by one.
@@ -24,5 +24,5 @@ my chunkSortAlgorithm.
   becomes [2, 1, 1, 1, 2, 1, 1, 1].
  This style of sorting is ideal, as the result can be broken down into repetative sub-chunks (two groups of [2,1,1,1]), which are easy to remember for a knitter. 
 
-The sorted chunk array is then converted to an element array. So, 7 elements on an array of size 17 = [--E-E-E-E--E-E-E-], 
-which uses the chunk array from rule 2)
+The sorted chunk array is then converted to an element array. So, using the chunk array from rule 2), < br /> 7 elements on an array of size 17 = [--E-E-E-E--E-E-E-], 
+
