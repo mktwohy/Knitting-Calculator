@@ -5,8 +5,8 @@ For this project, one main challenge was conretely describing how elements are d
 is simplifed to chunks. A chunk is made of either blank space or elements, depending on what dominates the array.
 For example, if 'E' represents an element, and '-' represents an empty cell, [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
 
-I have outlined two rules that result in an optimal array:
-1) Chunk sizes are as similar as possible. Or, explicitly, that the sizes of each chunk can differ at most by one.
+I have established two rules that result in an optimal array:
+1) Chunk sizes are as similar as possible. Or, more specifically, that the sizes of each chunk can differ at most by one.
 This rule is enforced by my OpSum algorithm, which finds the sizes of these chunks and can be seen in detail in here: https://github.com/mktwohy/OperandsFromSum-Calculator
 
 2) Chunks are sorted; not only does the size of each chunk matter, but so does their order. If there is at least one unique chunk size, this rule is enforced by 
