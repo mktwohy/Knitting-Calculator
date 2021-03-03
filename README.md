@@ -2,6 +2,7 @@
 # Purpose
 My sister is a knitter, and she came to me with a problem one day; when increasing or decreasing a large row, it is difficult to figure out the pattern for combining or adding stitches. Noticing that this can be simplified into an array problem, I spent the next few weeks writing this program.
 
+# Disclaimer
 I solved the problem with pen and paper and wrote code to test my ideas. Because my program wasn't planned out beforehand, it is a complete mess.
 Furthermore, this is not an Object Oriented solution, so my use of classes is unnecessary and complicated. Regardless, it serves as a proof of concept, and was 
 great practice for conceptual problem solving.
@@ -23,5 +24,5 @@ my chunkSortAlgorithm.
   becomes [2, 1, 1, 1, 2, 1, 1, 1].
  This style of sorting is ideal, as the result can be broken down into repetative sub-chunks (two groups of [2,1,1,1]), which are easy to remember for a knitter. 
 
-After the program creates a sorted chunk array, it converts it to an element array. So, 7 elements on an array of size 17 = [--E-E-E-E--E-E-E-], 
+Now that the program creates a sorted chunk array, it converts it to an element array. So, 7 elements on an array of size 17 = [--E-E-E-E--E-E-E-], 
 which uses the chunk array from rule 2)
