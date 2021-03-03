@@ -3,7 +3,7 @@ My sister is a knitter, and she came to me with a problem one day; when increasi
 
 For this project, one main challenge was conretely describing how elements are distributed on an array. So, an optimal array - that is, an evenly distributed array -
 is simplifed to chunks. A chunk is made of either blank space or elements, depending on what dominates the array.
-For example, if 'E' represents an element, and '-' represents an empty cell, [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2, 3, 2, 3, 2].
+For example, if 'E' represents an element, and '-' represents an empty cell, [--E---E--E---E--] and [EE-EEE-EE-EEE-EE] both have a chunk array of [2,3,2,3,2].
 
 I have outlined two rules that result in an optimal array:
 1) Chunk sizes are as similar as possible. Or, explicitly, that the sizes of each chunk can differ at most by one.
